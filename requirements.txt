@@ -1,0 +1,10 @@
+humanize
+requests
+six
+rsa
+bs4
+schematics
+humanfriendly
+gtts
+googletrans
+wikiapi
