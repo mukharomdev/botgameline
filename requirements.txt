@@ -11,3 +11,4 @@ wikiapi
 null
 wikipedia
 python-dotenv
+pyngrok
