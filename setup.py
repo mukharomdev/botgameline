@@ -22,6 +22,7 @@ if __name__ == "__main__":
 			'gtts',
 			'googletrans',
 			'wikiapi',
+			'null'
 	        'importlib-metadata; python_version >= "3.8"',
 	    ],
 	)

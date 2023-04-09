@@ -8,3 +8,6 @@ humanfriendly
 gtts
 googletrans
 wikiapi
+null
+wikipedia
+python-dotenv

@@ -22,7 +22,7 @@ from zalgo import zalgoname
 from random import randint
 from shutil import copyfile
 from youtube_dl import YoutubeDL
-import LineService
+#import LineService
 import subprocess, youtube_dl, humanize, traceback
 import subprocess as cmd
 import time, random, sys, json, null, codecs, html5lib ,shutil ,threading, glob, re, base64, string, os, requests, six, ast, pytz, wikipedia, urllib, urllib.parse, atexit, asyncio, traceback

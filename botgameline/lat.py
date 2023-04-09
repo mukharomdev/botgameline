@@ -1,3 +1,17 @@
-from linepy import *
+# from linepy import *
 
-print(dir(LINE))
+# print(dir(LINE))
+import os 
+from dotenv import load_dotenv,dotenv_values
+load_dotenv()  # take environment variables from .env.
+
+# Code of your application, which uses environment variables (e.g. from `os.environ` or
+# `os.getenv`) as if they came from the actual environment.
+# 
+# print(os.getenv('.env'))
+print(os.environ["DOMAIN"])
+
+
+# config = dotenv_values(".env")
+
+# print(config["DOMAIN"])
