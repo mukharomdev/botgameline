@@ -1,8 +1,8 @@
 from linepy import *
-from akad.ttypes import Message
+# from akad.ttypes import Message,
 from liff.ttypes import LiffChatContext, LiffContext, LiffSquareChatContext, LiffNoneContext, LiffViewRequest
-from akad.ttypes import ContentType as Type
-from akad.ttypes import TalkException
+from akad.ttypes import ContentType as Type,Message,TalkException
+# from akad.ttypes import TalkException
 from KhieBots.thrift.protocol import TCompactProtocol
 from KhieBots.thrift.transport import THttpClient
 from KhieBots.ttypes import LoginRequest
@@ -22,7 +22,7 @@ from zalgo import zalgoname
 from random import randint
 from shutil import copyfile
 from youtube_dl import YoutubeDL
-import LineService
+from lineservice import LineService
 import subprocess, youtube_dl, humanize, traceback
 import subprocess as cmd
 import time, random, sys, json, null, codecs, html5lib ,shutil ,threading, glob, re, base64, string, os, requests, six, ast, pytz, wikipedia, urllib, urllib.parse, atexit, asyncio, traceback
@@ -33,5 +33,8 @@ except ImportError:
     import urllib2
 
 __all__ = [
-'LINE'
+'LINE', 'Channel', 'OEPoll', 'OpType',
+'LiffChatContext', 'LiffContext', 'LiffSquareChatContext', 'LiffNoneContext','LiffViewRequest',
+'Type','Message','TalkException',
+
 ]

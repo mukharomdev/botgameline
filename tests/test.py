@@ -8,3 +8,4 @@ load_dotenv()  # take environment variables from .env.
 # 
 print(os.environ["DOMAIN"])
 print(os.environ["EMAIL"])
+print(os.environ)
