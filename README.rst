@@ -20,9 +20,9 @@ Build
 Install
 ----------
 
-| ...pastikan sudah di root direktori project :
+| ...pastikan sudah di root direktori project dan berada di environment :
 
 .. code::
 
-			python -m pip install ./botgameline
+			python -m pip install -e .
 

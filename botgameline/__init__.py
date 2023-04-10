@@ -38,3 +38,6 @@ __all__ = [
 'Type','Message','TalkException',
 
 ]
+import KhieBots
+
+print(dir(KhieBots))

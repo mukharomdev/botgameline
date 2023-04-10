@@ -1,4 +1,4 @@
-from linepy import *
+from botgameline import *
 from akad.ttypes import Message
 from liff.ttypes import LiffChatContext, LiffContext, LiffSquareChatContext, LiffNoneContext, LiffViewRequest
 from akad.ttypes import ContentType as Type
@@ -44,7 +44,7 @@ clientMID = client.profile.mid
 oepoll = OEPoll(client)
 quest = []
 temp_flood = {}
-admin = "ua3e46be368346a83c7c961bc6c23937e"
+admin = os.environ["ADMIN"]
 
 try:
     with open("data.json", "r", encoding="utf_8_sig") as fp:
