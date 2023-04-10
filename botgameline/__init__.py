@@ -1,4 +1,4 @@
-from linepy import *
+from botgameline.linepy import  *
 # from akad.ttypes import Message,
 from liff.ttypes import LiffChatContext, LiffContext, LiffSquareChatContext, LiffNoneContext, LiffViewRequest
 from akad.ttypes import ContentType as Type,Message,TalkException
@@ -32,12 +32,14 @@ try:
 except ImportError:
     import urllib2
 
-__all__ = [
-'LINE', 'Channel', 'OEPoll', 'OpType',
-'LiffChatContext', 'LiffContext', 'LiffSquareChatContext', 'LiffNoneContext','LiffViewRequest',
-'Type','Message','TalkException',
+# __all__ = [
+# 'LINE', 'Channel', 'OEPoll', 'OpType',
+# 'LiffChatContext', 'LiffContext', 'LiffSquareChatContext', 'LiffNoneContext','LiffViewRequest',
+# 'Type','Message','TalkException',
 
-]
-import KhieBots
+# ]
+# import os
+# platform = ...
+# dirname = __path__[0]		# Package's main folder
+# __path__.insert(0, os.path.join(dirname, "plat-" + platform))
 
-print(dir(KhieBots))

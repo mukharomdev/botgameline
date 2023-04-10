@@ -1,7 +1,6 @@
 import sys
-from linepy import LINE
-from lineservice import LineService
+from core import botgameline
+
 if __name__ == '__main__':
-   print(sys.argv)
-   print(LINE)
-   print(LineService)
+  botgameline = botgameline.get()
+  botgameline.execute("kiri")

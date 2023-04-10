@@ -14,8 +14,8 @@ class BotGameLine:
 
 @BotGameLine
 class botgameline:
-	def execute(self):
-		print("dispatch bot")
+	def execute(self,cmd):
+		print("dispatch bot with command =>",cmd)
 
 
 

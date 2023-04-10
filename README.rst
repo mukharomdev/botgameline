@@ -26,3 +26,10 @@ Install
 
 			python -m pip install -e .
 
+
+Test
+-----------
+
+.. code::
+
+			python -m unittest 
